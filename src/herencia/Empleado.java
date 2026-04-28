@@ -22,6 +22,13 @@ public class Empleado extends Persona {
         this.area=area;
     }
     
+    public void trabajar(){
+        System.out.println("Trabajando");
+    }
+    
+    public double getSalario(){
+        return salario;
+    }
     
     
 }
