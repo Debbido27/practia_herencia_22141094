@@ -29,4 +29,9 @@ public class Gerente extends Empleado{
         this.reuniones = reuniones;
     }
     
+    @Override
+    public void trabajar(){
+        System.out.println("El gerente esta coordinando...");
+    }
+    
 }
